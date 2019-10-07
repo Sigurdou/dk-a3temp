@@ -25,7 +25,9 @@ public class MyClass {
     private static void feature5() {
         System.out.println("Feature #5");
     }
-
+    private static void feature6() {
+        System.out.println("Feature #6")
+    }
     public static void main(String[] args) {
         System.out.println("The following features are implemented:");
         feature1();
@@ -33,5 +35,6 @@ public class MyClass {
         feature3();
         feature4();
         feature5();
+        feature6();
     }
 }
